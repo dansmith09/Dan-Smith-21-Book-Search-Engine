@@ -32,15 +32,16 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
   },
-
-    saveBook: async (parent, { user, body }) => {
-      return User.findOneAndUpdate(
-        { _id: user._id },
-        {
-          $addToSet: { savedBooks: body },
-        },
-        { new: true, runValidators: true }
-      );
+    saveBook: async (parent, { user, body }, context) => {
+        if(context.user) {
+          return User.findOneAndUpdate(
+          { _id: user._id },
+          {
+            $addToSet: { savedBooks: body },
+          },
+          { new: true, runValidators: true }
+        );
+      }
     },
     removeUser: async (parent, { userId }) => {
       return User.findOneAndDelete({ _id: userId });
