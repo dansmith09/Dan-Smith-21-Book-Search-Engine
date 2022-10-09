@@ -66,11 +66,11 @@ const SearchBooks = () => {
     if (!token) {
       return false;
     }
+    
     try {
       const { data } = await saveBook({
-        variables: { ...bookToSave }
+        variables: {bookData: {...bookToSave} }
       })
-      console.log(data)
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);
     } catch (e) {
       console.error(e);
