@@ -1,0 +1,122 @@
+[
+  {
+    "username": "testUser1",
+    "email": "bkernighan@techfriends.dev",
+    "password": "password01",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser2",
+    "email": "mkanatalexander@techfriends.dev",
+    "password": "password02",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser3",
+    "email": "amiko@techfriends.dev",
+    "password": "password03",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser4",
+    "email": "kbeck@techfriends.dev",
+    "password": "password04",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser5",
+    "email": "evberard@techfriends.dev",
+    "password": "password05",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser6",
+    "email": "akay@techfriends.dev",
+    "password": "password06",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser7",
+    "email": "choare@techfriends.dev",
+    "password": "password07",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser8",
+    "email": "dthomas@techfriends.dev",
+    "password": "password08",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser9",
+    "email": "dknuth@techfriends.dev",
+    "password": "password09",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+  },
+  {
+    "username": "testUser10",
+    "email": "lernantino@techfriends.dev",
+    "password": "password10",
+    "savedBooks": [{
+      "bookId": "123",
+      "authors": "Sven Jenson",
+      "title": "Good Book",
+      "description": "Great good book"
+
+    }]
+   }
+]
